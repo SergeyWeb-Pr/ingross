@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Ingross</title>
+  <link rel="preload" href="fonts/NotoSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/NotoSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/NotoSans-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container footer_fix">
+    <header class="header">
+  <div class="container header__container">
+    <a class="logo" href="#">
+      <img loading="lazy" src="img/svg/logo.svg" class="image logo__image" width="" height="" alt="">
+      <div class="logo__info">Продажа, обслуживание и ремонт спецтехники</div>
+    </a>
+    <div class="header__info">
+      <div class="header__contacts">
+        <div class="tel">
+          <img loading="lazy" src="img/svg/call.svg" class="image" width="" height="" alt="">
+          <a href="tel:88003331376">8 800 333-13-76</a>
+        </div>
+        <button class="header__button button_empty1 btn-reset" data-graph-path="connect_with_us">Связаться
+          с нами</button>
+        <div class="mail">
+          <img loading="lazy" src="img/svg/mail.svg" class="image" width="" height="" alt="">
+          <a href="mailto:info@ingross-rus.ru">info@ingross-rus.ru</a>
+        </div>
+        <button class="header__basket btn-reset">
+          <svg class="header_svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+            <path
+              d="M2.01953 14V2H0.0195312V0H3.01953C3.28475 0 3.5391 0.105357 3.72664 0.292893C3.91417 0.48043 4.01953 0.734784 4.01953 1V13H16.4575L18.4575 5H6.01953V3H19.7395C19.8915 3 20.0415 3.03466 20.1781 3.10134C20.3147 3.16801 20.4344 3.26495 20.5279 3.38479C20.6214 3.50462 20.6863 3.6442 20.7178 3.79291C20.7493 3.94162 20.7465 4.09555 20.7095 4.243L18.2095 14.243C18.1554 14.4592 18.0305 14.6512 17.8547 14.7883C17.679 14.9255 17.4625 15 17.2395 15H3.01953C2.75431 15 2.49996 14.8946 2.31242 14.7071C2.12489 14.5196 2.01953 14.2652 2.01953 14ZM4.01953 21C3.4891 21 2.98039 20.7893 2.60532 20.4142C2.23024 20.0391 2.01953 19.5304 2.01953 19C2.01953 18.4696 2.23024 17.9609 2.60532 17.5858C2.98039 17.2107 3.4891 17 4.01953 17C4.54996 17 5.05867 17.2107 5.43374 17.5858C5.80882 17.9609 6.01953 18.4696 6.01953 19C6.01953 19.5304 5.80882 20.0391 5.43374 20.4142C5.05867 20.7893 4.54996 21 4.01953 21ZM16.0195 21C15.4891 21 14.9804 20.7893 14.6053 20.4142C14.2302 20.0391 14.0195 19.5304 14.0195 19C14.0195 18.4696 14.2302 17.9609 14.6053 17.5858C14.9804 17.2107 15.4891 17 16.0195 17C16.55 17 17.0587 17.2107 17.4337 17.5858C17.8088 17.9609 18.0195 18.4696 18.0195 19C18.0195 19.5304 17.8088 20.0391 17.4337 20.4142C17.0587 20.7893 16.55 21 16.0195 21Z"
+              fill="none" fill-opacity="0.3" />
+          </svg>
+        </button>
+      </div>
+      <nav class="nav" title="">
+        <ul class="nav__list list-reset">
+          <li class="nav__item"><a href="#" class="nav__link">Спецтехника</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Сервис и ремонт</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Запчасти</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+          <button class="nav__item btn-reset">
+            <svg class="header_svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+              <path
+                d="M16.0505 14.617L20.3335 18.899L18.9185 20.314L14.6365 16.031C13.0433 17.3082 11.0615 18.0029 9.01953 18C4.05153 18 0.0195312 13.968 0.0195312 9C0.0195312 4.032 4.05153 0 9.01953 0C13.9875 0 18.0195 4.032 18.0195 9C18.0224 11.042 17.3278 13.0237 16.0505 14.617ZM14.0445 13.875C15.3136 12.5699 16.0224 10.8204 16.0195 9C16.0195 5.132 12.8865 2 9.01953 2C5.15153 2 2.01953 5.132 2.01953 9C2.01953 12.867 5.15153 16 9.01953 16C10.84 16.0029 12.5894 15.2941 13.8945 14.025L14.0445 13.875Z"
+                fill="none" fill-opacity="0.3" />
+            </svg>
+          </button>
+        </ul>
+      </nav>
+    </div>
+    <nav class="nav nav_burger" title="" data-menu>
+      <ul class="nav__list list-reset">
+        <li class="nav__item"><a href="#" class="nav__link">Спецтехника</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Сервис и ремонт</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Запчасти</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+        <li class="nav__item">
+          <div class="block_search__inner">
+            <input type="text" name="v" class="input-reset block_search__input"
+              placeholder="Поиск">
+          </div>
+        </li>
+        <li class="nav__item">
+          <div class="tel">
+            <img loading="lazy" src="img/svg/call.svg" class="image" width="" height="" alt="">
+            <a href="tel:88003331376">8 800 333-13-76</a>
+          </div>
+          <button class="nav__button button_empty1 btn-reset" data-graph-path="connect_with_us">Связаться
+            с нами</button>
+          <div class="mail">
+            <img loading="lazy" src="img/svg/mail.svg" class="image" width="" height="" alt="">
+            <a href="mailto:info@ingross-rus.ru">info@ingross-rus.ru</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+    <section class="service_preview" style="background-image: url(img/jpg/bg_service.jpg);">
+  <div class="container">
+    <div class="breadcrumbs">
+      <p>Главная</p>
+      <img loading="lazy" src="img/svg/arrow_right_grey.svg" class="image" width="" height="" alt="">
+      <p>Раздел сайта</p>
+      <img loading="lazy" src="img/svg/arrow_right_grey.svg" class="image" width="" height="" alt="">
+      <p>Страница</p>
+    </div>
+    <h2 class="service_preview__title h2">
+      Ремонт и сервисное обслуживание
+    </h2>
+    <div class="service_preview__text">
+      Мы предлагаем выездное сервисное обслуживание и стационарный ремонт спецтехники, ее узлов и агрегатов, в том числе
+      ДВС. На все выполненные работы предоставляется гарантия. Цена включает НДС.
+    </div>
+    <button class="service_preview__button button1 btn-reset" data-graph-path="make_request2">Оформить заявку</button>
+  </div>
+</section>
+
+<section class="text section3">
+  <div class="container text__container">
+    <p>Не существует техники, которая бы рано или поздно не сломалась. И наши машины, насколько бы качественными
+      они ни были, не исключение.</p>
+    <p>Мы видим свою задачу в том, чтобы профилактическое сервисное обслуживание снизило риск поломок, но если поломка
+      все же случилась, то стремимся сократить время на её устранение до минимума.</p>
+  </div>
+</section>
+
+<section class="map">
+  <iframe
+    src="https://yandex.ru/map-widget/v1/?um=constructor%3A7915b6d27423f3d09f4fdb6ee82d721a47477d5b9240aad07be87fe8fd7934fe&amp;source=constructor"
+    width="100%" height="720" frameborder="0"></iframe>
+  <div class="container pos_r">
+    <div class="info container">
+      <h3 class="info__title h3">Оформить заявку на ремонт и сервисное обслуживание</h3>
+      <button class="info__button button3 btn-reset" data-graph-path="make_request2">
+        Оформить заявку
+      </button>
+      <div class="info__subtitle">или свяжитесь с нами по телефону</div>
+      <a class="info__tel" href="tel:88003331376">8 800 333-13-76</a>
+      <div class="info__text">мы предоставим самую подробную информацию</div>
+    </div>
+  </div>
+</section>
+
+    <footer class="footer section">
+  <div class="container">
+    <nav class="nav" title="">
+      <ul class="nav__list list-reset">
+        <li class="nav__item"><a href="#" class="nav__link">Спецтехника</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Сервис и ремонт</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Запчасти</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="footer__middle">
+      <div class="location">
+        <img loading="lazy" src="img/svg/location.svg" class="image" width="" height="" alt="">
+        <span>192019, пр-т Обуховской обороны, д. 86, лит.К, оф. 107</span>
+      </div>
+      <div class="tel">
+        <img loading="lazy" src="img/svg/call.svg" class="image" width="" height="" alt="">
+        <a href="tel:88003331376">8 800 333-13-76</a>
+      </div>
+      <div class="footer__button button_empty1 btn-reset" data-graph-path="connect_with_us">Связаться с нами</div>
+      <div class="mail">
+        <img loading="lazy" src="img/svg/mail.svg" class="image" width="" height="" alt="">
+        <a href="mailto:info@ingross-rus.ru">info@ingross-rus.ru</a>
+      </div>
+      <ul class="social" title="Социальные сети">
+        <li class="social__item"><a href="#" target="_blank" class="social__link social__link--yt"
+            aria-label="Наш канал в Ютуб">
+            <svg class="footer_svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <circle opacity="0.5" cx="20" cy="20" r="19.5" />
+              <path
+                d="M28 18.438C28 18.0876 27.9416 17.6788 27.9416 17.2117C27.8832 16.7445 27.8248 16.2774 27.7664 15.8686C27.6496 15.4015 27.4745 15.0511 27.1241 14.7591C26.8321 14.4672 26.4234 14.292 26.0146 14.2336C24.6715 14.0584 22.6861 14 20 14C17.3139 14 15.2701 14.0584 13.9854 14.2336C13.5766 14.292 13.1679 14.4672 12.8759 14.7591C12.5839 15.0511 12.3504 15.4015 12.2336 15.8686C12.1168 16.2774 12.0584 16.6861 12.0584 17.2117C12 17.6788 12 18.0876 12 18.438C12 18.7883 12 19.1971 12 19.781C12 20.365 12 20.8321 12 21.1241C12 21.4745 12.0584 21.8832 12.0584 22.3504C12.1168 22.8175 12.1752 23.2847 12.2336 23.6934C12.3504 24.1606 12.5255 24.511 12.8759 24.8029C13.1679 25.0949 13.5766 25.2701 13.9854 25.3285C15.3285 25.5036 17.3139 25.562 20 25.562C22.6861 25.562 24.7299 25.5036 26.0146 25.3285C26.4234 25.2701 26.8321 25.0949 27.1241 24.8029C27.4161 24.511 27.6496 24.1606 27.7664 23.6934C27.8832 23.2847 27.9416 22.8759 27.9416 22.3504C28 21.8832 28 21.4745 28 21.1241C28 20.7737 28 20.365 28 19.781C28 19.1971 28 18.7299 28 18.438ZM23.0949 20.2482L18.4818 23.1095C18.4234 23.1679 18.3066 23.2263 18.1898 23.2263C18.073 23.2263 18.0146 23.2263 17.8978 23.1679C17.7226 23.0511 17.6058 22.8759 17.6058 22.6423V16.8613C17.6058 16.6277 17.7226 16.4526 17.8978 16.3358C18.073 16.219 18.3066 16.219 18.4818 16.3358L23.0949 19.1971C23.2701 19.3139 23.3869 19.4891 23.3869 19.6642C23.3869 19.8394 23.2701 20.1314 23.0949 20.2482Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="social__item"><a href="#" target="_blank" class="social__link social__link--vk"
+            aria-label="Наша страница во Вконтакте">
+            <svg class="footer_svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <circle opacity="0.5" cx="20" cy="20" r="19.5" />
+              <path
+                d="M26.8514 24.3395C26.8514 24.2758 26.7877 24.2758 26.7877 24.2122C26.5331 23.7029 25.9601 23.0663 25.1962 22.366C24.8143 22.0477 24.6233 21.7931 24.4959 21.6657C24.305 21.4111 24.305 21.2201 24.3686 20.9655C24.4323 20.7745 24.6869 20.4562 25.1326 19.8833C25.3872 19.565 25.5145 19.374 25.7055 19.183C26.6604 17.9098 27.106 17.0822 26.9787 16.7003L26.915 16.6366C26.8514 16.5729 26.7877 16.5093 26.6604 16.5093C26.5331 16.4456 26.3421 16.4456 26.1511 16.5093H23.732C23.6684 16.5093 23.6684 16.5093 23.541 16.5093C23.4774 16.5093 23.4137 16.5093 23.4137 16.5093H23.3501H23.2864L23.2227 16.5729C23.1591 16.6366 23.1591 16.6366 23.1591 16.7003C22.9044 17.4005 22.5861 17.9735 22.2678 18.6101C22.0769 18.9284 21.8859 19.2467 21.6949 19.5013C21.5039 19.7559 21.3766 19.9469 21.2493 20.0742C21.122 20.2016 20.9946 20.2652 20.931 20.3925C20.8673 20.4562 20.74 20.5199 20.74 20.4562C20.6763 20.4562 20.6127 20.4562 20.6127 20.3925C20.549 20.3289 20.4854 20.2652 20.4217 20.2016C20.358 20.1379 20.358 20.0106 20.2944 19.8833C20.2944 19.7559 20.2944 19.6286 20.2944 19.565C20.2944 19.5013 20.2944 19.3103 20.2944 19.183C20.2944 18.992 20.2944 18.8647 20.2944 18.801C20.2944 18.6101 20.2944 18.3554 20.2944 18.1008C20.2944 17.8461 20.2944 17.6552 20.2944 17.5278C20.2944 17.4005 20.2944 17.2095 20.2944 17.0822C20.2944 16.8912 20.2944 16.7639 20.2944 16.7003C20.2944 16.6366 20.2307 16.5093 20.2307 16.4456C20.1671 16.382 20.1034 16.3183 20.0397 16.2546C19.9761 16.191 19.8488 16.191 19.7851 16.1273C19.4668 16.0637 19.0848 16 18.6392 16C17.6207 16 16.9204 16.0637 16.6658 16.191C16.5384 16.2546 16.4111 16.3183 16.3475 16.4456C16.2201 16.5729 16.2201 16.6366 16.2838 16.6366C16.6021 16.7003 16.8567 16.8276 16.9841 17.0186L17.0477 17.1459C17.1114 17.2095 17.1114 17.3369 17.175 17.5278C17.2387 17.7188 17.2387 17.9098 17.2387 18.1644C17.2387 18.5464 17.2387 18.9284 17.2387 19.183C17.2387 19.5013 17.175 19.6923 17.175 19.8833C17.175 20.0742 17.1114 20.2016 17.0477 20.2652C16.9841 20.3925 16.9841 20.4562 16.9204 20.4562C16.9204 20.4562 16.9204 20.5199 16.8567 20.5199C16.7931 20.5199 16.7294 20.5835 16.6021 20.5835C16.5384 20.5835 16.4111 20.5199 16.3475 20.4562C16.2201 20.3925 16.0928 20.2652 16.0292 20.1379C15.9018 20.0106 15.7745 19.8196 15.6472 19.565C15.5199 19.3103 15.3289 19.0557 15.2016 18.6737L15.0743 18.4191C15.0106 18.2918 14.8833 18.0371 14.756 17.7188C14.6286 17.4005 14.5013 17.1459 14.374 16.8276C14.3103 16.7003 14.2467 16.6366 14.183 16.5729H14.1194C14.1194 16.5729 14.0557 16.5093 13.992 16.5093C13.9284 16.5093 13.8647 16.4456 13.8011 16.4456H11.5093C11.2546 16.4456 11.1273 16.5093 11.0637 16.5729L11 16.6366C11 16.6366 11 16.7003 11 16.7639C11 16.8276 11 16.8912 11.0637 17.0186C11.382 17.7825 11.7639 18.5464 12.1459 19.3103C12.5278 20.0106 12.9098 20.6472 13.1645 21.0928C13.4828 21.5384 13.7374 21.9841 14.0557 22.366C14.374 22.748 14.565 23.0026 14.6286 23.1299C14.7559 23.2573 14.8196 23.3209 14.8833 23.3846L15.0743 23.5756C15.2016 23.7029 15.3926 23.8939 15.6472 24.0848C15.9018 24.2758 16.2201 24.4668 16.5384 24.6578C16.8567 24.8488 17.2387 24.9761 17.6207 25.1034C18.0663 25.2307 18.4482 25.2944 18.8302 25.2307H19.7851C19.9761 25.2307 20.1034 25.1671 20.2307 25.0397L20.2944 24.9761C20.2944 24.9124 20.358 24.9124 20.358 24.8488C20.358 24.7851 20.358 24.7214 20.358 24.5941C20.358 24.3395 20.358 24.1485 20.4217 23.9575C20.4854 23.7665 20.4854 23.6392 20.549 23.5119C20.6127 23.3846 20.6763 23.3209 20.74 23.2573C20.8037 23.1936 20.8673 23.1299 20.8673 23.1299H20.931C21.0583 23.0663 21.2493 23.1299 21.3766 23.2573C21.5676 23.3846 21.7586 23.5756 21.8859 23.7665C22.0132 23.9575 22.2042 24.1485 22.4588 24.4031C22.7135 24.6578 22.9045 24.8488 23.0318 24.9124L23.2227 25.0397C23.3501 25.1034 23.4774 25.1671 23.6684 25.2307C23.8594 25.2944 23.9867 25.2944 24.114 25.2944L26.2784 25.2307C26.4694 25.2307 26.6604 25.1671 26.7877 25.1034C26.915 25.0397 26.9787 24.9761 26.9787 24.8488C26.9787 24.7851 26.9787 24.6578 26.9787 24.5941C26.8514 24.4668 26.8514 24.4031 26.8514 24.3395Z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__links">
+      <span class="footer__link">© 2022 — «Ингросс»</span>
+      <a class="footer__link" href="#">Политика конфиденциальности</a>
+      <a class="footer__link" href="#">Реквизиты</a>
+      <a class="footer__link" href="#">Разработка сайта «Пикмедиа»</a>
+    </div>
+  </div>
+</footer>
+
+<div class="graph-modal">
+
+  <div class="graph-modal__container modal1" role="dialog" aria-modal="true" data-graph-target="connect_with_us">
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <form action="#" class="form">
+        <h4 class="form__title h4">Связаться с нами</h4>
+        <div class="form__inner">
+          <label class="form__label">
+            <input type="text" name="Контактное лицо *" class="input-reset form__input" placeholder="Контактное лицо *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Контактный телефон *" class="input-reset form__input"
+              placeholder="Контактный телефон *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Название компании" class="input-reset form__input" placeholder="Название компании">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Электронная почта" class="input-reset form__input" placeholder="Электронная почта">
+          </label>
+          <label class="form__label">
+            <textarea type="text" name="Комментарий" class="input-reset form__input form__textarea"
+              placeholder="Комментарий"></textarea>
+          </label>
+          <div class="form__check">
+            <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" checked="checked">
+            <label for="happy" class="form__text">Я соглашаюсь с <a href="#">политикой конфиденциальности</a></label>
+          </div>
+          <button class="btn-reset form__btn form__button button5">Отправить запрос</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="graph-modal__container modal2" role="dialog" aria-modal="true" data-graph-target="make_request">
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <form action="#" class="form">
+        <h4 class="form__title h4">Оформить заявку</h4>
+        <div class="form__subtitle">
+          Заполните форму и наши специалисты
+          на все интересующие вопросы
+        </div>
+        <div class="form__inner">
+          <label class="form__label">
+            <input type="text" name="Контактное лицо *" class="input-reset form__input" placeholder="Контактное лицо *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Контактный телефон *" class="input-reset form__input"
+              placeholder="Контактный телефон *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Электронная почта" class="input-reset form__input" placeholder="Электронная почта">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Марка/модель техники" class="input-reset form__input"
+              placeholder="Марка/модель техники">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Наименование/артикул детали" class="input-reset form__input"
+              placeholder="Наименование/артикул детали">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Место расположения детали" class="input-reset form__input"
+              placeholder="Место расположения детали">
+          </label>
+          <label class="form__label">
+            <input type="text" name="VIN/заводской номер машины" class="input-reset form__input"
+              placeholder="VIN/заводской номер машины">
+          </label>
+          <label class="input-file">
+            <input type="file" name="file">
+            <span class="input-file-btn">Приложить файл</span>
+          </label>
+          <label class="form__label">
+            <textarea type="text" name="Комментарий" class="input-reset form__input form__textarea"
+              placeholder="Комментарий"></textarea>
+          </label>
+          <div class="form__check">
+            <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" checked="checked">
+            <label for="happy" class="form__text">Я соглашаюсь с <a href="#">политикой конфиденциальности</a></label>
+          </div>
+          <button class="btn-reset form__btn form__button button5">Оформить заявку</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="graph-modal__container modal3" role="dialog" aria-modal="true" data-graph-target="product_inquiry">
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <form action="#" class="form">
+        <div class="form__wrapper">
+          <h4 class="form__title h4">Запрос продукции</h4>
+          <div class="form__block">
+            <img loading="lazy" src="img/jpg/form3.jpg" class="image" width="" height="" alt="">
+            <div class="form__name">Гусеничный экскаватор DOOSAN DX1000LC-7M</div>
+          </div>
+        </div>
+        <div class="form__inner">
+          <div class="form__subtitle">
+            Заполните форму заказа и наши специалисты предоставят подробную информацию и подготовят индивидуальное
+            предложение
+          </div>
+          <label class="form__label">
+            <input type="text" name="Контактное лицо *" class="input-reset form__input" placeholder="Контактное лицо *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Контактный телефон *" class="input-reset form__input"
+              placeholder="Контактный телефон *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Название компании" class="input-reset form__input" placeholder="Название компании">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Электронная почта" class="input-reset form__input" placeholder="Электронная почта">
+          </label>
+          <label class="input-file">
+            <input type="file" name="file">
+            <span class="input-file-btn">Приложить файл</span>
+          </label>
+          <label class="form__label">
+            <textarea type="text" name="Ваш комментарий к заказу" class="input-reset form__input form__textarea"
+              placeholder="Ваш комментарий к заказу"></textarea>
+          </label>
+          <div class="form__check">
+            <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" checked="checked">
+            <label for="happy" class="form__text">Я соглашаюсь с <a href="#">политикой конфиденциальности</a></label>
+          </div>
+          <button class="btn-reset form__btn form__button button5">Оформить заявку</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="graph-modal__container modal5" role="dialog" aria-modal="true" data-graph-target="make_request2">
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <form action="#" class="form">
+        <h4 class="form__title h4">Оформить заявку</h4>
+        <div class="form__subtitle">
+          Заполните форму и наши специалисты
+          на все интересующие вопросы
+        </div>
+        <div class="form__inner">
+          <label class="form__label">
+            <input type="text" name="Контактное лицо *" class="input-reset form__input" placeholder="Контактное лицо *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Контактный телефон *" class="input-reset form__input"
+              placeholder="Контактный телефон *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Название компании" class="input-reset form__input" placeholder="Название компании">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Электронная почта" class="input-reset form__input" placeholder="Электронная почта">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Местонахождение техники" class="input-reset form__input"
+              placeholder="Местонахождение техники">
+          </label>
+          <label class="form__label">
+            <textarea type="text" name="Описание предмета ремонта" class="input-reset form__input form__textarea"
+              placeholder="Описание предмета ремонта"></textarea>
+          </label>
+          <label class="input-file">
+            <input type="file" name="file">
+            <span class="input-file-btn">Приложить файл</span>
+          </label>
+          <label class="form__label">
+            <textarea type="text" name="Комментарий" class="input-reset form__input form__textarea"
+              placeholder="Комментарий"></textarea>
+          </label>
+          <div class="form__check">
+            <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" checked="checked">
+            <label for="happy" class="form__text">Я соглашаюсь с <a href="#">политикой конфиденциальности</a></label>
+          </div>
+          <button class="btn-reset form__btn form__button button5">Оформить заявку</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="graph-modal__container modal6" role="dialog" aria-modal="true" data-graph-target="request_quote">
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <form action="#" class="form">
+        <div class="form__wrapper">
+          <h4 class="form__title h4">Запросить стоимость</h4>
+          <div class="form__block">
+            <div class="form__image">
+              <img loading="lazy" src="img/png/form1.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="form__right">
+              <div class="form__name">692519 — Фильтр воздушный внутренний
+                Briggs & Stratton</div>
+              <div class="form__num">
+                Артикул: 692519
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form__inner">
+          <div class="form__subtitle">
+            Контактные данные для оформления
+          </div>
+          <label class="form__label">
+            <input type="text" name="Контактное лицо *" class="input-reset form__input" placeholder="Контактное лицо *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Контактный телефон *" class="input-reset form__input"
+              placeholder="Контактный телефон *">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Электронная почта" class="input-reset form__input" placeholder="Электронная почта">
+          </label>
+          <label class="form__label">
+            <input type="text" name="Расчитать доставку до населенного пункта" class="input-reset form__input"
+              placeholder="Расчитать доставку до населенного пункта">
+          </label>
+          <label class="input-file">
+            <input type="file" name="file">
+            <span class="input-file-btn">Приложить файл</span>
+          </label>
+          <label class="form__label">
+            <textarea type="text" name="Ваш комментарий к заказу" class="input-reset form__input form__textarea"
+              placeholder="Ваш комментарий к заказу"></textarea>
+          </label>
+          <div class="form__check">
+            <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes" checked="checked">
+            <label for="happy" class="form__text">Я соглашаюсь с <a href="#">политикой конфиденциальности</a></label>
+          </div>
+          <button class="btn-reset form__btn form__button button5">Оформить заявку</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+</body>
+
+</html>
+

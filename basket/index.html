@@ -99,7 +99,7 @@
 </header>
 
     <main class="main">
-      <section class="basket">
+      <section class="basketempty">
   <div class="container">
     <div class="breadcrumbs">
       <p>Главная</p>
@@ -108,91 +108,32 @@
       <img loading="lazy" src="img/svg/arrow_right_grey.svg" class="image" width="" height="" alt="">
       <p>Страница</p>
     </div>
-    <h2 class="basket__title h2">Корзина</h2>
-    <div class="basket__content">
-      <div class="basket__top">
-        <div class="basket__part">
-          <input type="checkbox" class="custom-checkbox" name="happy" value="yes">
-          <div class="basket__text">Выбрать все</div>
-        </div>
-        <div class="basket__part">
-          <img loading="lazy" src="img/svg/close_grey.svg" class="image basket__close" width="" height="" alt="">
-          <div class="basket__text">Удалить</div>
-        </div>
-      </div>
-      <div class="basket__head">
-        <div class="basket__text">Название</div>
-        <div class="basket__text">Количество</div>
-      </div>
-      <div class="basket__items">
-        <div class="basket__item">
-          <input type="checkbox" class="custom-checkbox basket__checkbox" name="happy" value="yes">
-          <img loading="lazy" src="img/png/basket1.png" class="image basket__image" width="" height="" alt="">
-          <div class="basket__inner">
-            <div class="basket__middle">
-              <a class="basket__name" href="#">Вал сцепления 03 (редуктор GD12)</a>
-              <div class="basket__info">Вал сцепления бывает в 2-х вариантах исполнения, косозубый и прямозубый. При
-                заказе
-                уточняйте, какой вал нужен или какой есть в наличии.</div>
-              <div class="basket__num">
-                <p>Артикул:</p>
-                <span>WHS070719</span>
-              </div>
-            </div>
-            <div class="amount">
-              <img loading="lazy" src="img/svg/minus.svg" class="image amount__svg" width="" height="" alt="">
-              <div class="amount__num">4</div>
-              <img loading="lazy" src="img/svg/plus.svg" class="image amount__svg" width="" height="" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="basket__item">
-          <input type="checkbox" class="custom-checkbox basket__checkbox" name="happy" value="yes">
-          <img loading="lazy" src="img/png/basket1.png" class="image basket__image" width="" height="" alt="">
-          <div class="basket__inner">
-            <div class="basket__middle">
-              <a class="basket__name" href="#">Вал сцепления 03 (редуктор GD12)</a>
-              <div class="basket__info">Вал сцепления бывает в 2-х вариантах исполнения, косозубый и прямозубый. При
-                заказе
-                уточняйте, какой вал нужен или какой есть в наличии.</div>
-              <div class="basket__num">
-                <p>Артикул:</p>
-                <span>WHS070719</span>
-              </div>
-            </div>
-            <div class="amount">
-              <img loading="lazy" src="img/svg/minus.svg" class="image amount__svg" width="" height="" alt="">
-              <div class="amount__num">4</div>
-              <img loading="lazy" src="img/svg/plus.svg" class="image amount__svg" width="" height="" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="basket__item">
-          <input type="checkbox" class="custom-checkbox basket__checkbox" name="happy" value="yes">
-          <img loading="lazy" src="img/png/basket1.png" class="image basket__image" width="" height="" alt="">
-          <div class="basket__inner">
-            <div class="basket__middle">
-              <a class="basket__name" href="#">Вал сцепления 03 (редуктор GD12)</a>
-              <div class="basket__info">Вал сцепления бывает в 2-х вариантах исполнения, косозубый и прямозубый. При
-                заказе
-                уточняйте, какой вал нужен или какой есть в наличии.</div>
-              <div class="basket__num">
-                <p>Артикул:</p>
-                <span>WHS070719</span>
-              </div>
-            </div>
-            <div class="amount">
-              <img loading="lazy" src="img/svg/minus.svg" class="image amount__svg" width="" height="" alt="">
-              <div class="amount__num">4</div>
-              <img loading="lazy" src="img/svg/plus.svg" class="image amount__svg" width="" height="" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="basket__button button2 btn-reset">Оформить заказ</button>
+    <h2 class="basketempty__title h2">Корзина</h2>
+    <div class="basketempty__text">
+      В вашей корзине нет запчастей для заказа.Воспользуйтесь <a href="#">каталогом запчастей</a> или поиском
     </div>
+    <div class="block_search">
+      <div class="block_search__name">Поиск запчастей</div>
+      <div class="block_search__inner">
+        <input type="text" name="артикул или название детали" class="input-reset block_search__input"
+          placeholder="артикул или название детали">
+      </div>
+    </div>
+    <div class="basketempty__text2">
+      За более подробной информацией обращайтесь к менеджерам нашей компании
+    </div>
+    <div class="case__block">
+      <div class="tel">
+        <img loading="lazy" src="img/svg/phone_grey.svg" class="image" width="" height="" alt="">
+        <a href="tel:88003331376">8 800 333-13-76</a>
+      </div>
+      <div class="mail">
+        <img loading="lazy" src="img/svg/mail_grey.svg" class="image" width="" height="" alt="">
+        <a href="mailto:info@ingross-rus.ru">info@ingross-rus.ru</a>
+      </div>
+    </div>
+    <button class="basket__button button2 btn-reset" data-graph-path="make_request">Отправить заявку на запчасти</button>
   </div>
-
 </section>
 
     </main>

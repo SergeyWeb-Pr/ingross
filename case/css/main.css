@@ -1601,6 +1601,9 @@ a {
   font-weight: 700;
   color: var(--tel-color);
 }
+.card .tel a:hover {
+  color: var(--orange-color);
+}
 .card .tel span {
   font-weight: 400;
   font-size: 12px;
@@ -2273,6 +2276,9 @@ a {
 }
 .case .tel a {
   color: var(--tel-color);
+}
+.case .tel a:hover {
+  color: var(--orange-color);
 }
 .case .mail a {
   color: var(--orange-color);
@@ -5654,4 +5660,3 @@ textarea {
     left: 48px;
   }
 }
-/*# sourceMappingURL=main.css.map */

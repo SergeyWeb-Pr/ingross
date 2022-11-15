@@ -3191,7 +3191,7 @@ a {
 }
 
 .success {
-  background-position: center;
+  background-position: center 66%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
